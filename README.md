@@ -1,3 +1,5 @@
+
+
 <div align="center">
     <img src="docs/kubescape.png" width="300" alt="logo">
 </div>
@@ -10,12 +12,27 @@
 
 :sunglasses: [Want to contribute?](#being-a-part-of-the-team) :innocent: 
 
+</br>
 
-Kubescape is a K8s open-source tool providing a Kubernetes single pane of glass, including risk analysis, security compliance, RBAC visualizer, and image vulnerability scanning. 
-Kubescape scans K8s clusters, YAML files, and HELM charts, detecting misconfigurations according to multiple frameworks (such as the [NSA-CISA](https://www.armosec.io/blog/kubernetes-hardening-guidance-summary-by-armo/?utm_source=github&utm_medium=repository), [MITRE ATT&CK®](https://www.microsoft.com/security/blog/2021/03/23/secure-containerized-environments-with-updated-threat-matrix-for-kubernetes/)), software vulnerabilities, and RBAC (role-based-access-control) violations at early stages of the CI/CD pipeline, calculates risk score instantly and shows risk trends over time.
+> Kubescape is an open source project. We welcome your feedback and ideas for improvement. We’re also aiming to collaborate with the Kubernetes community to help make the tests more robust and complete as Kubernetes develops.
 
-It has become one of the fastest-growing Kubernetes tools among developers due to its easy-to-use CLI interface, flexible output formats, and automated scanning capabilities, saving Kubernetes users and admins precious time, effort, and resources.
-Kubescape integrates natively with other DevOps tools, including Jenkins, CircleCI, Github workflows, Prometheus, and Slack, and supports multi-cloud K8s deployments like EKS, GKE, and AKS.
+</br>
+
+
+</br>
+
+> Kubescape is a K8s open-source tool providing a Kubernetes single pane of glass, including risk   analysis, security compliance, RBAC visualizer, and image vulnerability scanning.
+
+</br>
+
+</br>
+
+> Kubescape scans K8s clusters, YAML files, and HELM charts, detecting misconfigurations according to multiple frameworks (such as the [NSA-CISA](https://www.armosec.io/blog/kubernetes-hardening-guidance-summary-by-armo/?utm_source=github&utm_medium=repository), [MITRE ATT&CK®](https://www.microsoft.com/security/blog/2021/03/23/secure-containerized-environments-with-updated-threat-matrix-for-kubernetes/)), software vulnerabilities, and RBAC (role-based-access-control) violations at early stages of the CI/CD pipeline, calculates risk score instantly and shows risk trends over time.
+
+
+</br>
+
+
 
 </br>
 
@@ -47,9 +64,25 @@ kubescape scan --submit --enable-host-scan --verbose
 
 </br>
 
-> Kubescape is an open source project. We welcome your feedback and ideas for improvement. We’re also aiming to collaborate with the Kubernetes community to help make the tests more robust and complete as Kubernetes develops.
+
+It became one of the fastest-growing Kubernetes security compliance tools among developers due to its easy-to-use CLI interface, flexible output formats, and automated scanning capabilities, saving Kubernetes users and admins’ precious time, effort, and resources.
+
+Kubescape integrates natively with other DevOps tools, including Jenkins, CircleCI, Github workflows, Gitlab, Prometheus, and Slack, and supports multi-cloud K8s deployments like EKS, GKE, and AKS
 
 </br>
+
+## What Makes KubeScape Unique?:
+
+</br>
+
+> Kubescape is the only Kubernetes security assessment solution (commercial and open-source) that scans your:
+
+ - K8s Manifest files (YAML, Helm)
+ - API server settings
+ - Worker node settings.
+
+</br>
+
 
 ### Please [star ⭐](https://github.com/kubescape/kubescape/stargazers) the repo if you want us to continue developing and improving Kubescape 😀
 
@@ -63,7 +96,7 @@ We invite you to our community! We are excited about this project and want to re
 We hold community meetings in [Zoom](https://us02web.zoom.us/j/84020231442) on the first Tuesday of every month at 14:00 GMT! :sunglasses:
 
 ## Contributions 
-[Want to contribute?](https://github.com/kubescape/kubescape/blob/master/CONTRIBUTING.md) Want to discuss something? Have an issue? Please make sure that you follow our [Code Of Conduct](https://github.com/kubescape/kubescape/blob/master/CODE_OF_CONDUCT.md) . 
+[Want to contribute? 👉](https://github.com/kubescape/kubescape/blob/master/CONTRIBUTING.md) Want to discuss something? Have an issue? Please make sure that you follow our [Code Of Conduct](https://github.com/kubescape/kubescape/blob/master/CODE_OF_CONDUCT.md) . 
 
 * Feel free to pick a task from the [issues](https://github.com/kubescape/kubescape/issues?q=is%3Aissue+is%3Aopen+label%3A%22open+for+contribution%22), [roadmap](docs/roadmap.md) or suggest a feature of your own. [Contact us](MAINTAINERS.md) directly for more information :) 
 * [Open an issue](https://github.com/kubescape/kubescape/issues/new/choose) , we are trying to respond within 48 hours
@@ -82,12 +115,12 @@ We hold community meetings in [Zoom](https://us02web.zoom.us/j/84020231442) on t
 
 ## Tutorials
 
-* [Overview](https://youtu.be/wdBkt_0Qhbg)
-* [How To Secure Kubernetes Clusters With Kubescape And Armo](https://youtu.be/ZATGiDIDBQk)
-* [Scan Kubernetes YAML files](https://youtu.be/Ox6DaR7_4ZI)
-* [Scan Kubescape on an air-gapped environment (offline support)](https://youtu.be/IGXL9s37smM)
-* [Managing exceptions in the Kubescape SaaS version](https://youtu.be/OzpvxGmCR80)
-* [Configure and run customized frameworks](https://youtu.be/12Sanq_rEhs)
+* [👉 Overview](https://youtu.be/wdBkt_0Qhbg)
+* [👉 How To Secure Kubernetes Clusters With Kubescape And Armo](https://youtu.be/ZATGiDIDBQk)
+* [👉 Scan Kubernetes YAML files](https://youtu.be/Ox6DaR7_4ZI)
+* [👉 Scan Kubescape on an air-gapped environment (offline support)](https://youtu.be/IGXL9s37smM)
+* [👉 Managing exceptions in the Kubescape SaaS version](https://youtu.be/OzpvxGmCR80)
+* [👉 Configure and run customized frameworks](https://youtu.be/12Sanq_rEhs)
 * Customize control configurations: 
   - [Kubescape CLI](https://youtu.be/955psg6TVu4) 
   - [Kubescape SaaS](https://youtu.be/lIMVSVhH33o)
